@@ -1,0 +1,156 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+        <h1 >Student Registration Form</h1>
+        </header>
+        <div class="form_1">
+        <form action="/action_page.php" target="_self" width="300px">
+
+        <label for="name:">Name:</label>
+        <input type="text" placeholder= "Enter your name" id="name"  required >
+        
+        <label for="pno">Phone number:</label>
+        <input type="number" id="pno" placeholder= "Enter your phone number" name="phno" width="10" required >
+       
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date" placeholder="Enter your date of birth" required>
+        
+        <label for="add">Address:</label>
+        <br>
+        <textarea rows="9" cols="50" name="add" id="add" >  
+           </textarea>  
+        <div class="gen">
+        <label for="gender">Gender:</label>
+       
+        <input type="radio" id="male" name="gender" value="Male">
+        
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        </div>
+        <label for="city" >City:</label>
+        <select name="city" id="city" >
+            <option value="Gurugram">Select a city</option>
+            <option value="Gurugram">Gurugram</option>
+            <option value="Allahabad">Allahabad</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Panchkula">Panchkula</option>
+        </select>
+        
+        <label for="hobby">Hobbies:</label><br>
+        <input type="checkbox" id="h1" name="h1">
+        <label for="h1">Music</label><br>
+        <input type="checkbox" id="h2" name="h2">
+        <label for="h2">Dance</label><br>
+        <input type="checkbox" id="h3" name="h3">
+        <label for="h3">Reading books<c/label><br>
+        <input type="checkbox" id="h4" name="h4">
+        <label for="h4">Making memes</label><br>
+        <input type="checkbox" id="h5" name="h5">
+        <label for="h5">Sports</label><br><br>
+       
+        <input type="submit" class="btn">
+        <input type="reset" class="btn">
+
+        </form>
+       </div>
+        <table>
+            <tr>
+                <th>S.no</th>
+                <th >Name</th>
+                <th>Phone no.</th>
+                <th>Gender</th>
+                <th>DOB</th>
+                <th >Hobbies</th>
+            </tr>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">Muskan</td>
+                <td rowspan="3">12345</t>
+                <td rowspan="3">Female</td>
+                <td rowspan="3">8/02/2000</td>
+                <td >Making memes</td>
+                
+            </tr>
+
+            <tr>
+                <td>Dance</td>
+                
+            </tr>
+            <tr>
+                <td>Music</td>
+                
+            </tr>
+        
+        
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Mohit</td>
+                <td rowspan="3">12345</td>
+                <td rowspan="3">Male</td>
+                <td rowspan="3">25-11-2000</td>
+                <td>Sports</td>
+            </tr>
+       
+       
+        <tr>
+            <td>Reading books</td>
+            </tr>
+            <tr>
+                <td>Dance</td>
+                </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td rowspan="2">Dev</td>
+                <td rowspan="2">12345</td>
+                <td rowspan="2">Male</td>
+                <td rowspan="2">07-9-2012</td>
+                <td>Music</td>
+            </tr>
+            <tr>
+                <td>Reading books</td>
+                </tr>
+             
+       
+
+        </table>`   
+        <div class="demo">
+            <h2>Display and Visibility Property</h2>
+        <div class="visi"><p>This is a visible heading</p></div>
+        <div class="visi2"><p>Hidden heading with display property does not take up space</p></div>
+        <div class="visi3"><p>Hidden heading with visibility property does take up space</p></div>
+        <div class="visi4"><p>Hidden heading with visibility property does not take up space</p></div>
+        
+       
+            <h2>Float Property</h2>
+        <div class="left"><p>Floating</p></div>
+        <div class="right"><p>Property</p></div>
+        <br><br>
+    <img src="float.webp" alt="Floating_picture" width="200px" class="im">
+    <p> This is a picture to demo the floating property of CSS.</p>
+    <br><br><br><br><br><br>
+   <h2>Position Property</h2>
+   <div class="static">
+   This element has position: static
+    </div>
+    <br>
+    <p>To demo absolute and relative positions</p>
+    <div class="l1">Relative
+        <div class="l2">Absolute</div>
+    </div>
+    
+
+
+    
+         
+        </div>
+
+
+    </body>
+</html>   
