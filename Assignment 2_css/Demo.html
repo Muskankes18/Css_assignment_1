@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css-Demo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+                 
+            <div class="navbar">
+                <h2>CSS Demo Page</h2>
+            <a href="#unit">CSS units</a>
+            <a href="#comb">Combinators</a>
+            <a href="#tran">CSS transform</a>
+            </div>
+        </nav>
+        <div class="container">
+            <a id="unit">
+            <h2>CSS UNITS</h2>
+            
+        <div class="demo1">
+            This is to represent em unit.
+            <span>It is relative to the font size of the element.(0.5*30=15px)</span>
+           
+            <div class="demo2">
+           <p>This is to represent rem unit. It is relative to the font size of body tag(2*20=40px)</p>
+        </div>
+        <div class="demo3">
+            <p>This is to represent vh unit. It is relative to the 1% height of viewport</p>
+        </div>
+        <div class="demo4">
+            <p>This is to represent vm unit. It is relative to the 1% width of viewport</p>
+        </div>
+        <div class="demo5">
+            <p>This is to represent px unit. It is an absolute unit equal to 1/96th of inch</p>
+        </div>
+    </a>
+        <a id="comb">
+
+        <h2>CSS COMBINATORS</h2>
+        <div class="demo6">
+            <h3>Descendant selector</h3>
+           <p> The descendant selector matches all elements </p>
+            <p>that are descendants of a specified element.</p>
+            <section><p>Still in div</p></section>
+        </div>
+        <p>Not in div</p>
+
+        <div class="demo7">
+            <h3>Child selector</h3>
+            <p> The child selector (>) selects all elements </p>
+             <p> that are the children of a specified element.</p>
+             <section><p>Not the child</p></section>
+         </div>
+         <p>Not the child</p>
+
+         <div class="demo8">
+            <h3>Adjacent Sibling selector</h3>
+            <p> The adjacent sibling selector is used to select an element  </p>
+             <p> that is directly after another specific element.</p>
+             <section><p>Not the sibling</p></section>
+         </div>
+         <p>The sibling</p>
+         <p>Not the sibling</p>
+         <div class="demo9">
+            <h3>General Sibling selector</h3>
+            <p> The general sibling selector selects all elements   </p>
+             <p> that are next siblings of a specified element.</p>
+             <section><p>Not the sibling</p></section>
+         </div>
+         <p>The sibling</p>
+         <p>Still the sibling</p>
+         </a>
+         <a id="tran"><h2>CSS Transform and Transition</h2><br><br>
+         <div class="demo10">
+            <h2>2d Transform:Rotate</h2>
+            <p>2d Transform:Skew</p>
+            3d transform
+            <h3>3d Transform</h3>
+
+
+        
+         </div>
+         <div class="demo11">
+           Transition
+         </div>
+         </a>
+
+
+        </div>
+
+
+
+
+
+    </body>
+</html>

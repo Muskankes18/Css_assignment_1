@@ -1,0 +1,108 @@
+body{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+   
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+
+.navbar{
+    position: fixed;
+    background-color: darkblue;
+    display: block;
+    width: 100%;
+    float: right;
+    color: white;
+    left:0;
+   text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    margin-right: 20px;
+    top:0;
+    
+    
+}
+.navbar a{
+    color: white;
+    padding: 20px;
+}
+.navbar a:hover{
+    color: orange;
+}
+.container{
+    padding-top: 150px;
+}
+.demo1{
+    font-size: 30px;
+    color: black;
+    
+}
+.demo1 span{
+    font-size: 0.5em;
+}
+.demo2 p{
+    font-size: 2rem;
+}
+.demo3 p{
+    font-size: 7vh;
+}
+.demo4 p{
+    font-size: 3vw;
+}
+.demo5 p{
+    font-size: 30px;
+}
+.demo6 p{
+    font-size: 20px;
+    background-color: yellow;
+}
+.demo7 >p{
+    font-size: 20px;
+    background-color: yellow;
+}
+.demo8 +p{
+    font-size: 20px;
+    background-color: yellow;
+}
+.demo9 ~p{
+    font-size: 20px;
+    background-color: yellow;
+}
+/*.demo10{
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline;
+}*/
+.demo10 p{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin:10px;
+    width:300px;
+    transform: skew(20deg,10deg);
+    
+}
+.demo10 h2{
+    transform:rotate(20deg);
+}
+.demo10 h3{
+    transform: rotateX(180deg);
+}
+.demo11 {
+    width: 80px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.demo11:hover{
+    width:300px;
+}
